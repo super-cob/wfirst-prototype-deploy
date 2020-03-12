@@ -1,0 +1,3 @@
+[submodule "terraform-deploy"]
+	path = terraform-deploy
+	url = https://github.com/pangeo-data/terraform-deploy.git
