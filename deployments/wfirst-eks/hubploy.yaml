@@ -1,6 +1,6 @@
 images:
   image_name: # TODO: Full path to your docker image, based on the following pattern
-    On AWS: 162808325377.dkr.ecr.us-east-1.amazonaws.com/wfirst-eks.k8s.local-user-image
+    On AWS: 162808325377.dkr.ecr.us-east-1.amazonaws.com/wfirst-eks-user-image
   # On Google Cloud: gcr.io/<project-name>/<your-hub-name>-user-image
   registry:
     provider: aws
@@ -17,7 +17,7 @@ cluster:
   aws:
     project: 162808325377 # AWS account id
     zone: us-east-1 # Zone or region in which your cluster is set up
-    cluster: wfirst-eks.k8s.local # The name of your EKS cluster
+    cluster: wfirst-eks # The name of your EKS cluster
     # Get AWS credentials that can access your EKS cluster, in same format as ~/.aws/credentials
     # then put them in secrets/aws-eks-config.cfg
     service_key: aws-eks-config.cfg

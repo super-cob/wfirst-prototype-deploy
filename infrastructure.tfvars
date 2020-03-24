@@ -10,6 +10,6 @@ map_users = [{
 }]
 
 # Name of your cluster
-cluster_name = "wfirst-eks.k8s.local"
+cluster_name = "wfirst-eks"
 
 vpc_name = "wfirst-eks-vpc"
